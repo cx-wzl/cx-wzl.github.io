@@ -5,7 +5,7 @@ body {
   right: 0;
   bottom: 0;
   display: block;
-  padding: 0;
+  margin: 0;
 }
 
 .bg-over {
@@ -25,7 +25,7 @@ body {
       rgba(0, 11, 60, 0.5),
       rgba(0, 11, 60, 0.5)
     ),
-    url('assets/images/bc.jpg');
+    url('/assets/images/bc.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
