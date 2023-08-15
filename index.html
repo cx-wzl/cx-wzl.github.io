@@ -9,7 +9,6 @@
     <script>
       fetch('https://cx-wzl.github.io/data.json', {
         method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ title: 'Fetch PUT Request Example' }),
       }).then((res) => {
         console.log(res);
