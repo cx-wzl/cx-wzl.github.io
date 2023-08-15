@@ -7,12 +7,9 @@
     <script type="module" src="index.js"></script>
     <title>个人笔记</title>
     <script>
-      const url = 'https://cx-wzl.github.io/data.json';
-
-      fetch({
+      fetch('https://cx-wzl.github.io/data.json', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        url,
         body: JSON.stringify({ title: 'Fetch PUT Request Example' }),
       }).then((res) => {
         console.log(res);
