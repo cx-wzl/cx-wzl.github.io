@@ -30,7 +30,7 @@ body {
   right: 0;
   bottom: 0;
   display: block;
-  padding: 0;
+  margin: 0;
 }
 
 .bg-over {
