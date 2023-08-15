@@ -9,14 +9,11 @@
     <script>
       const url = 'https://cx-wzl.github.io/data.json';
 
-      const data = {
-        new_data: 'This is some new data',
-      };
-
       fetch({
         method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
         url,
-        body: data,
+        body: JSON.stringify({ title: 'Fetch PUT Request Example' }),
       }).then((res) => {
         console.log(res);
       });
